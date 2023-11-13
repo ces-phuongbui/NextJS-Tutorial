@@ -2,7 +2,7 @@ import { CustomProjectConfig } from "lost-pixel";
 
 export const config: CustomProjectConfig = {
   pageShots: {
-    pages: [{ path: "/", name: "" }],
+    pages: [{ path: "/", name: "dashboard" }],
     baseUrl: "http://172.17.0.1:3000",
   },
   lostPixelProjectId: "clowcrkf92s94g80eogqsmn5j",
