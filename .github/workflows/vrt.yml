@@ -13,7 +13,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: 16.x
+          node-version: 18.x
 
       - name: Install dependencies
         run: npm install
@@ -22,7 +22,7 @@ jobs:
         run: npm run build
 
       - name: Start server (in background)
-        run: npm run start &
+        run: npm run dev & 
 
       - name: Lost Pixel
         uses: lost-pixel/lost-pixel@v3.4.0
