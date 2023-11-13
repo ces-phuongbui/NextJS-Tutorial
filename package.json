@@ -14,6 +14,7 @@
     "@vercel/postgres": "^0.5.1",
     "bcrypt": "^5.1.1",
     "clsx": "^2.0.0",
+    "lost-pixel": "^3.8.2",
     "next": "14.0.1",
     "react": "^18",
     "react-dom": "^18"
