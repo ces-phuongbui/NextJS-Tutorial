@@ -1,7 +1,7 @@
 module.exports = {
     pageShots: {
     pages: [ { path: '/', name: 'landing' }, 
-    {path: "/dashboard" , name:"dashboard"} 
+    {path: "/dashboard" , name:"dashboard"}, {path: "/dashboard/customer" , name:"customer"}  
 ],
     baseUrl: 'http://172.17.0.1:3000',
   },
