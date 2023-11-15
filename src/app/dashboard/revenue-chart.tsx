@@ -24,8 +24,8 @@ export default async function RevenueChart() {
       <h2 className={`mb-4 text-xl md:text-2xl`}>Recent Revenues</h2>
       {/* NOTE: comment in this code when you get to this point in the course */}
 
-      <div className="rounded-xl bg-gray-50 p-4">
-        <div className="sm:grid-cols-13 mt-0 grid grid-cols-12 items-end gap-2 rounded-md bg-white p-2 md:gap-4">
+      <div className="rounded-xl bg-red-50 p-4">
+        <div className="sm:grid-cols-13 mt-0 grid grid-cols-12 items-end gap-2 rounded-md bg-blue p-2 md:gap-4">
           <div
             className="mb-6 hidden flex-col justify-between text-sm text-gray-400 sm:flex"
             style={{ height: `${chartHeight}px` }}
